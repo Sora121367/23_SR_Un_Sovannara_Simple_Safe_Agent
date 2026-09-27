@@ -57,7 +57,7 @@ TOOL_SCHEMAS = {
 def tool_schemas_for_llm() -> list[dict]:
     """
     Build the JSON-schema tool definitions the LLM needs to propose
-    structured tool calls (Anthropic 'tools' format).
+    structured tool calls ('tools' format).
     """
     return [
         {
